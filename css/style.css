@@ -1,0 +1,80 @@
+/*.cubo{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  line-height: 180px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+#linea{
+  line-height: 0px;
+  transition-property: line-height, background-color, border-radius;
+  transition-duration: 3s, 2s, 1s;
+  transition-delay: 0s, 3s, 5s;
+}
+
+#linea:hover{
+  line-height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  transition-duration: 3s, 2s, 1s;
+  transition-delay: 0s, 1s, 3s;
+}
+
+.cubo2{
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border: 20px solid pink;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10vh auto;
+}
+
+#modal{
+  color: transparent;
+  transition-property: height, width;
+  transition-duration: 2s, 2s;
+  transition-delay: 0s, 2s;
+}
+
+#modal:hover{
+  width: 80%;
+  height: 80vh;
+  transition-property: width, height;
+  transition-duration: 2s, 2s;
+  transition-delay: 0s, 2s;
+  animation-play-state: paused;
+}
+
+.cubo3{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  animation-name: holis, rotar;
+  animation-duration: 2s, 1s;
+  animation-delay: 0s, 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes holis {
+  0%{
+    background-color: blue;
+  }
+  50%{
+    background-color: red;
+  }
+  100%{
+    background-color: yellow;
+  }
+}
+
+@keyframes rotar {
+  100%{
+    transform: rotate(360deg);
+  }
+}*/
